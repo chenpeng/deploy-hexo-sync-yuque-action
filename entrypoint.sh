@@ -20,7 +20,7 @@ echo "Clean folder ..."
 ./node_modules/hexo/bin/hexo clean
 
 echo "Sync yuque ..."
-./node_modules/yuque-hexo/bin/yuque-hexo sync
+./node_modules/.bin/yuque-hexo sync
 
 echo "Generate file ..."
 ./node_modules/hexo/bin/hexo generate
